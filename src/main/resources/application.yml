@@ -1,0 +1,13 @@
+spring:
+  #数据源配置
+  data:
+    mongodb:
+      uri: mongodb://bobo:123456@124.222.131.172:27017,124.222.131.172:27117/articledb
+#      副本集连接方式
+#      uri: mongodb://124.222.131.172:27017,124.222.131.172:27018,124.222.131.172:27019/articledb?connect=replicaSet&slaveOk=true&replicaSet=myrs
+#      # 主机地址
+#      host: 124.222.131.172
+#      # 数据库
+#      database: articledb
+#      # 默认端口是27017
+#      port: 27017
